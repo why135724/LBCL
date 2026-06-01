@@ -1,11 +1,8 @@
 # LCBE
-Code of paper 《LCBE: LLM-Based Continual Learning Approach for Brain-Computer Interfaces with Efficient Tuning》
-
-# DBConformer  
-**Dual-Branch Convolutional Transformer for EEG Decoding**
+**LCBE: LLM-Based Continual Learning Approach for Brain-Computer Interfaces with Efficient Tuning**
 
 > **Authors:**  
-> Ziwei Wang<sup>1</sup>, Hongbin Wang<sup>1</sup>, Tianwang Jia<sup>1</sup>, Xingyi He<sup>1</sup>, Siyang Li<sup>1</sup>, Dongrui Wu<sup>1</sup> 📧  
+> Huanyu Wu<sup>1</sup>, XX XX<sup>1</sup>, XX XX<sup>1</sup>, XX XX<sup>1</sup>, XX XX<sup>1</sup>, Dongrui Wu<sup>1</sup> 📧  
 > <sup>1</sup> School of Artificial Intelligence and Automation, Huazhong University of Science and Technology  
 
 ---
@@ -61,7 +58,7 @@ Comparison among CNNs, traditional serial Conformers, and the proposed **DBConfo
 ---
 
 ## 📂 Code Structure
-text
+
 DBConformer/
 │
 ├── DBConformer_CO.py # Chronological Order (CO) scenario
@@ -95,7 +92,7 @@ DBConformer/
 │ └── ...
 │
 └── README.md
-纯文本
+
 ---
 
 ## 🧪 Baselines
@@ -194,7 +191,7 @@ volume = {29},
 number = {X},
 pages = {XXXX--XXXX}
 }
-纯文本
+
 ---
 
 ## 🙌 Acknowledgments
@@ -223,14 +220,3 @@ We welcome improvements, bug fixes, new baselines, and additional datasets.
 <p align="center">
   ⭐ <b>Star this repo if you find DBConformer useful!</b> ⭐
 </p>
-
-✅ 使用说明
-•
-图片路径如 assets/dbconformer_overview.png可自行替换为：
-•
-GitHub 相对路径
-•
-或 https://raw.githubusercontent.com/yourname/DBConformer/main/assets/xxx.png
-•
-如需 中文版 / 中英双语版 / 带 Badge（License、Python 版本、Stars）版本，我可以继续帮你生成。
-如果你愿意，我也可以 按 IEEE JBHI 论文风格​ 再给你一个更偏学术展示的 README 变体。
