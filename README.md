@@ -206,7 +206,7 @@ We sincerely thank the authors of the following open-source projects:
 ## 📬 Contact
 
 For questions, suggestions, or collaborations, please contact:  
-📧 **Dongrui Wu** – `dongruiwu@hust.edu.cn`
+📧 **Dongrui Wu** – `drwu09@gmail.com`
 
 ---
 
