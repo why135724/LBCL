@@ -58,7 +58,7 @@ Comparison among CNNs, traditional serial Conformers, and the proposed **DBConfo
 ---
 
 ## 📂 Code Structure
-
+<pre>
 DBConformer/
 │
 ├── DBConformer_CO.py # Chronological Order (CO) scenario
@@ -92,7 +92,7 @@ DBConformer/
 │ └── ...
 │
 └── README.md
-
+</pre>
 ---
 
 ## 🧪 Baselines
@@ -181,7 +181,7 @@ Impact of architectural design choices on performance:
 ## 📜 Citation
 
 If you use this work, please cite:
-bibtex
+<pre>
 @article{wang2025dbconformer,
 author = {Ziwei Wang and Hongbin Wang and Tianwang Jia and Xingyi He and Siyang Li and Dongrui Wu},
 journal = {IEEE Journal of Biomedical and Health Informatics},
@@ -191,7 +191,7 @@ volume = {29},
 number = {X},
 pages = {XXXX--XXXX}
 }
-
+</pre>
 ---
 
 ## 🙌 Acknowledgments
