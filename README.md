@@ -2,23 +2,12 @@
 **LCBE: LLM-Based Continual Learning Approach for Brain-Computer Interfaces with Efficient Tuning**
 
 > **Authors:**  
-> Huanyu Wu<sup>1</sup>, XX XX<sup>1</sup>, XX XX<sup>1</sup>, XX XX<sup>1</sup>, XX XX<sup>1</sup>, Dongrui Wu<sup>1</sup> 📧  
+> Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> 📧  
 > <sup>1</sup> School of Artificial Intelligence and Automation, Huazhong University of Science and Technology  
-
----
-
-## 📰 News
-
-- ✅ **Original EEG trials** of our seizure dataset **CHSZ** are now publicly available on [Zenodo](https://zenodo.org/).
-- ✅ **DBConformer** has been accepted for publication in *IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)*. 🎉
-- ✅ We have released the **supplementary material** for DBConformer.
-- ✅ We reproduced and added **three recent EEG decoding baseline models**: **MSVTNet**, **MSCFormer**, and **TMSA-Net**.
-
----
 
 ## 🧠 Overview
 
-**DBConformer** is a dual-branch convolutional Transformer network tailored for EEG decoding.  
+**LCBE** is a dual-branch convolutional Transformer network tailored for EEG decoding.  
 It serves as a **benchmark codebase** for EEG decoding models, where we implement and fairly evaluate **13 state-of-the-art models**, including:
 
 - CNN-based models  
