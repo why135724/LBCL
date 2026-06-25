@@ -2,10 +2,10 @@
 **LCBE: LLM-Based Continual Learning Approach for Brain-Computer Interfaces with Efficient Tuning**
 
 > **Authors:**  
-> Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> 📧  
+> Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> ✉️  
 > <sup>1</sup> School of Artificial Intelligence and Automation, Huazhong University of Science and Technology  
 
-## 🧠 Overview
+## 🧬 Overview
 
 **LCBE** is a dual-branch convolutional Transformer network tailored for EEG decoding.  
 It serves as a **benchmark codebase** for EEG decoding models, where we implement and fairly evaluate **13 state-of-the-art models**, including:
@@ -26,7 +26,7 @@ It serves as a **benchmark codebase** for EEG decoding models, where we implemen
 
 ---
 
-## ✨ Features
+## 🔬 Features
 
 - 🔀 **Dual-branch parallel design** for symmetric spatio-temporal modeling  
 - 🧩 **Plug-and-play channel attention** for adaptive channel weighting  
@@ -195,7 +195,7 @@ We sincerely thank the authors of the following open-source projects:
 ## 📬 Contact
 
 For questions, suggestions, or collaborations, please contact:  
-📧 **Dongrui Wu** – `drwu09@gmail.com`
+✉️ **Dongrui Wu** – `drwu09@gmail.com`
 
 ---
 
