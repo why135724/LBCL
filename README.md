@@ -10,7 +10,7 @@
 ## 🧬 Overview
 
 **LCBE** is an LLM-based continual learning framework tailored for EEG-based brain-computer interfaces.  
-It addresses three critical limitations of existing EEG foundation models: **high pre-training costs**, **lack of effective sample selection**, and **absence of robust continual learning mechanisms**.
+It alleviates three limitations of existing EEG foundation models: **high pre-training costs**, **lack of effective sample selection**, and **absence of robust continual learning mechanisms**.
 
 ### Core Innovations
 
@@ -103,6 +103,16 @@ python train_XXX.py
 ```bash
 python train_XXX.py
 ```
+
+### 🏋️ 4. Train the XXX Model
+
+```bash
+python train_XXX.py
+```
+
+
+
+
 ---
 
 ## 🧪 Baselines
