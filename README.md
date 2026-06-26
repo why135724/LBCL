@@ -45,10 +45,6 @@ LCBE operates in four stages:
 | **EPC** | Conversion of selected samples into structured prompts combining task instructions |
 | **O-MoSLoRA** | Subject-specific adapter learning with mixer layers and orthogonal constraints |
 
-<p align="center">
-  <img src="assets/architecture_overview.png" width="720"/>
-</p>
-
 ---
 
 ## 📂 Code Structure
@@ -96,22 +92,23 @@ LCBE is compared against **state-of-the-art EEG foundation models and continual 
 |----------|---------|
 | EEG Foundation Models | EEG Conformer, Large-Scale EEG Foundation Models |
 | CNN-based | EEGNet, SCNN, DCNN, FBCNet |
-| Transformer-based | CTNet, MSCFormer, MSVTNet |
-| CL Approaches | EWC, LwF, Replay-based methods |
+| Transformer-based | Conformer, DBConformer,  |
+| CL Approaches | EWC, LwF, R |
 
 ---
 
 ## 📊 Datasets
 
 ### Motor Imagery (MI)
-- BNCI2014001  
-- BNCI2014004  
-- Zhou2016  
-- Blankertz2007  
-- BNCI2014002  
+- MI1 https://www.bbci.de/competition/iv/desc_1.html
+- MI2 https://www.bbci.de/competition/iv/desc_2a.pdf
 
-> All MI datasets are accessible via [MOABB](https://moabb.github.io/).  
-> Preprocessed versions are also provided in the repository.
+### Event-Related Potentials (ERPs)
+- ERP1 https://physionet.org/physiobank/database/ltrsvp
+- ERP2 https://www.kaggle.com/c/inria-bci-challenge
+
+### Sleep Staging (SS)
+- Sleep https://physionet.org/content/sleep-edfx/1.0.0/
 
 ---
 
@@ -119,10 +116,7 @@ LCBE is compared against **state-of-the-art EEG foundation models and continual 
 
 | Scenario | Description |
 |---------|-------------|
-| **CO** | Within-subject; first 80% trials for training, last 20% for testing |
-| **CV** | Within-subject; stratified 5-fold cross-validation |
-| **LOSO** | Cross-subject; leave one subject out for testing |
-| **Continual Learning** | Sequential subject adaptation with evaluation on all seen subjects |
+| **Continual Learning+CO** | Sequential subject adaptation with evaluation on all seen subjects （Within-subject; first 70% trials for training, then 10% trials for validation, last 20% for testing） |
 
 ---
 
@@ -130,19 +124,6 @@ LCBE is compared against **state-of-the-art EEG foundation models and continual 
 
 - **+3.2% average accuracy gain** over prevailing approaches across 5 public datasets
 - **Effective catastrophic forgetting mitigation** via orthogonal subspace constraints
-- **Reduced computational overhead** compared to full fine-tuning of LLM backbones
+- **Acceptable computational overhead** compared to other EEG Foundation Models, CNNs
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Open **issues** for bug reports or feature requests  
-- Submit **pull requests** for improvements, new baselines, or additional datasets  
-- Extend LCBE to other EEG paradigms beyond motor imagery  
-
----
-
-<p align="center">
-  ⭐ <b>Star this repo if you find LCBE useful!</b> ⭐
-</p>
