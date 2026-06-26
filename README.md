@@ -92,11 +92,22 @@ LCBE/
 pip install -r requirements.txt
 ```
 
-### 🏋️ 2. Train the XXX Model
+### 🏋️ 2. Comparison with Different EEG-specialized Models in the  continual learning scenario
 
 ```bash
-python train_XXX.py
+python MI1_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
+python MI2_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
+python ERP1_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on ERP11 dataset
+python ERP2_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on ERP2 dataset
+python Sleep_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on Sleep dataset
 ```
+
+```bash
+MI1_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI1 dataset
+MI2_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI2 dataset
+```
+
+
 
 ### 🏋️ 3. Train the XXX Model
 
