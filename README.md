@@ -21,10 +21,6 @@ It addresses three critical limitations of existing EEG foundation models: **hig
 - **O-MoSLoRA (Orthogonal Mixture of Subspaces in Low-Rank Adaptation)**  
   Learns subject-specific LoRA parameters with mixer layers and orthogonal regularization to mitigate catastrophic forgetting
 
-<p align="center">
-  <img src="assets/flowchart.png" width="720"/>
-</p>
-
 ---
 
 ## 🔬 Features
