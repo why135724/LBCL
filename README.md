@@ -84,16 +84,37 @@ LCBE/
 
 ---
 
+## 🚀 Quick start
+
+### 📦 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🏋️ 2. Train the XXX Model
+
+```bash
+python train_XXX.py
+```
+
+### 🏋️ 3. Train the XXX Model
+
+```bash
+python train_XXX.py
+```
+---
+
 ## 🧪 Baselines
 
 LCBE is compared against **state-of-the-art EEG foundation models and continual learning approaches**:
 
 | Category | Methods |
 |----------|---------|
-| EEG Foundation Models | EEG Conformer, Large-Scale EEG Foundation Models |
-| CNN-based | EEGNet, SCNN, DCNN, FBCNet |
-| Transformer-based | Conformer, DBConformer,  |
-| CL Approaches | EWC, LwF, R |
+| EEG Foundation Models | CBraMod, LaBraM, BENDR |
+| CNN-based | EEGNet, ShallowNet, DeepConvNet |
+| Transformer-based | Conformer, DBConformer  |
+| CL Approaches | EWC, MAS, LwF, O-LoRA |
 
 ---
 
@@ -116,7 +137,7 @@ LCBE is compared against **state-of-the-art EEG foundation models and continual 
 
 | Scenario | Description |
 |---------|-------------|
-| **Continual Learning+CO** | Sequential subject adaptation with evaluation on all seen subjects （Within-subject; first 70% trials for training, then 10% trials for validation, last 20% for testing） |
+| **Continual Learning + CO** | Sequential subject adaptation with evaluation on all seen subjects （Within-subject; first 70% trials for training, then 10% trials for validation, last 20% for testing） |
 
 ---
 
