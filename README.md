@@ -1,9 +1,9 @@
 # LCBE
 **LCBE: LLM-Based Continual Learning Approach for Brain-Computer Interfaces with Efficient Tuning**
 
-> **Authors:**  
-> Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> ✉️  
-> <sup>1</sup> School of Artificial Intelligence and Automation, Huazhong University of Science and Technology  
+&gt; **Authors:**  
+&gt; Huanyu Wu&lt;sup&gt;1&lt;/sup&gt;, Jiayu An&lt;sup&gt;1&lt;/sup&gt;, Siyuan Kan&lt;sup&gt;1&lt;/sup&gt;, Dongrui Wu&lt;sup&gt;1&lt;/sup&gt; ✉️  
+&gt; &lt;sup&gt;1&lt;/sup&gt; School of Artificial Intelligence and Automation, Huazhong University of Science and Technology  
 
 ---
 
@@ -49,7 +49,7 @@ LCBE operates in four stages:
 
 ## 📂 Code Structure
 
-<pre>
+&lt;pre&gt;
 LCBE/
 │
 ├── train_CO.py              # Chronological Order (CO) scenario
@@ -80,11 +80,11 @@ LCBE/
 │   └── ...
 │
 └── README.md
-</pre>
+&lt;/pre&gt;
 
 ---
 
-## 🚀 Quick start
+## 🚀 Quick Start
 
 ### 📦 1. Install Dependencies
 
