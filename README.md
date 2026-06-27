@@ -107,12 +107,11 @@ MI1_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI1 dataset
 MI2_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI2 dataset
 ```
 
-
-
-### 🏋️ 3. Train the XXX Model
+### 🏋️ 3. PEFT O-MoSLoRA
 
 ```bash
-python train_XXX.py
+python O_MoSLoRA_MI1_v2.py #  Performance of O-MoSLoRA on the MI1 dataset
+python O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
 ```
 
 ### 🏋️ 4. Train the XXX Model
