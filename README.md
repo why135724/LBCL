@@ -114,14 +114,11 @@ python O_MoSLoRA_MI1_v2.py #  Performance of O-MoSLoRA on the MI1 dataset
 python O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
 ```
 
-### 🏋️ 4. Train the XXX Model
+### 🏋️ 4. Data selection approach - URBSS (MI dataset)
 
 ```bash
-python train_XXX.py
+python URBSS_MI.py
 ```
-
-
-
 
 ---
 
