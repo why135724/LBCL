@@ -52,33 +52,17 @@ LCBE operates in four stages:
 <pre>
 LCBE/
 │
-├── train_CO.py              # Chronological Order (CO) scenario
-├── train_CV.py              # Cross-Validation (CV) scenario
-├── train_LOSO.py            # Leave-One-Subject-Out (LOSO) scenario
-│
-├── models/                  # Model architectures
-│   ├── LCBE.py              # Main LCBE framework (Ours)
-│   ├── feature_extractor.py # Paradigm-aware feature extractors
-│   ├── urbss.py             # Uncertainty-Representativeness Balanced Sample Selection
-│   ├── prompt_constructor.py# EEG-Specific Prompt Construction (EPC)
-│   ├── omoslora.py          # Orthogonal Mixture of Subspaces in LoRA (O-MoSLoRA)
-│   └── backbone/            # LLM backbones
-│       ├── llama_adapter.py
-│       └── ...
-│
-├── data/                    # Datasets
-│   ├── BNCI2014001/
-│   ├── BNCI2014004/
-│   ├── Zhou2016/
-│   ├── Blankertz2007/
-│   └── BNCI2014002/
-│
-├── utils/                   # Utilities
-│   ├── data_utils.py        # EEG preprocessing & loading
-│   ├── metrics.py           # Evaluation metrics
-│   ├── clustering.py        # Cluster analysis for URBSS
-│   └── ...
-│
+├── MI1_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
+├── MI2_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
+├── ERP1_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on ERP11 dataset
+├── ERP2_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on ERP2 dataset
+├── Sleep_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on Sleep dataset
+├── MI1_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI1 dataset
+├── MI2_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI2 dataset
+├── O_MoSLoRA_MI1_v2.py #  Performance of O-MoSLoRA on the MI1 dataset
+├── O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
+├── URBSS_MI.py #  Data selection approach (URBSS) of MI datasets
+├── requirements.txt
 └── README.md
 </pre>
 
