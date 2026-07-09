@@ -10,7 +10,7 @@
 ## 🧬 Overview
 
 **LCBE** is an LLM-based continual learning framework tailored for EEG-based brain-computer interfaces.  
-It alleviates three limitations of existing EEG foundation models: **high pre-training costs**, **lack of effective sample selection**, and **absence of robust continual learning mechanisms**.
+It alleviates three limitations of existing EEG foundation models: **unstable performance on downstream tasks**, **lack of effective sample selection**, and **absence of robust continual learning mechanisms**.
 
 ### Core Innovations
 
@@ -61,7 +61,7 @@ LCBE/
 ├── MI2_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI2 dataset
 ├── O_MoSLoRA_MI1_v2.py #  Performance of O-MoSLoRA on the MI1 dataset
 ├── O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
-├── URBSS_MI.py #  Data selection approach (URBSS) of MI datasets
+├── URBSS_MI_v2.py #  Data selection approach (URBSS) of MI datasets
 ├── requirements.txt
 └── README.md
 </pre>
@@ -101,7 +101,7 @@ python O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
 ### 🏋️ 4. Data selection approach - URBSS (MI dataset)
 
 ```bash
-python URBSS_MI.py
+python URBSS_MI_v2.py
 ```
 
 ---
