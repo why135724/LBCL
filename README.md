@@ -1,5 +1,5 @@
-# LCBE
-**LCBE: LLM-Based Continual Learning Approach for Brain-Computer Interfaces with Efficient Tuning**
+# LCPB
+**LCPB: An LLM-Based Continual Learning Approach with Parameter-Efficient Fine-Tuning for Brain-Computer Interfaces**
 
 > **Authors:**  
 > Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> ✉️  
@@ -9,7 +9,7 @@
 
 ## 🧬 Overview
 
-**LCBE** is an LLM-based continual learning framework tailored for EEG-based brain-computer interfaces.  
+**LCPB** is an LLM-based continual learning framework tailored for EEG-based brain-computer interfaces.  
 It alleviates three limitations of existing EEG foundation models: **unstable performance on downstream tasks**, **lack of effective sample selection**, and **absence of robust continual learning mechanisms**.
 
 ### Core Innovations
@@ -36,7 +36,7 @@ It alleviates three limitations of existing EEG foundation models: **unstable pe
 
 ## 🏗️ Framework Pipeline
 
-LCBE operates in four stages:
+LCPB operates in four stages:
 
 | Stage | Description |
 |-------|-------------|
@@ -50,7 +50,7 @@ LCBE operates in four stages:
 ## 📂 Code Structure
 
 <pre>
-LCBE/
+LCPB/
 │
 ├── MI1_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
 ├── MI2_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
@@ -108,7 +108,7 @@ python URBSS_MI_v2.py
 
 ## 🧪 Baselines
 
-LCBE is compared against **state-of-the-art EEG foundation models and continual learning approaches**:
+LCPB is compared against **state-of-the-art EEG foundation models and continual learning approaches**:
 
 | Category | Methods |
 |----------|---------|
