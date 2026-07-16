@@ -15,7 +15,7 @@ It alleviates three limitations of existing EEG foundation models: **unstable pe
 ### Core Innovations
 
 - **URBSS (Uncertainty-Representativeness Balanced Sample Selection)**  
-  Combines cluster analysis with model prediction uncertainty to identify high-quality training samples
+  Combines clustering analysis with model prediction uncertainty to identify high-quality training samples
 - **EPC (EEG-Specific Prompt Construction)**  
   Integrates EEG features with task instructions into structured prompts for LLM consumption
 - **O-MoSLoRA (Orthogonal Mixture of Subspaces in Low-Rank Adaptation)**  
@@ -41,7 +41,7 @@ LCPB operates in four stages:
 | Stage | Description |
 |-------|-------------|
 | **Preprocessing & Feature Extraction** | Band-pass filtering, trial alignment, and paradigm-specific feature vectorization |
-| **URBSS** | Iterative sample selection balancing prediction uncertainty and gradient-space diversity |
+| **URBSS** | Sample selection balancing prediction uncertainty and gradient-space diversity |
 | **EPC** | Conversion of selected samples into structured prompts combining task instructions |
 | **O-MoSLoRA** | Subject-specific adapter learning with mixer layers and orthogonal constraints |
 
