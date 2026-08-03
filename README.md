@@ -1,5 +1,5 @@
-# LCPB
-**LCPB: An LLM-Based Continual Learning Approach with Parameter-Efficient Fine-Tuning for Brain-Computer Interfaces**
+# LBCL
+**LBCL: LLM-Based Continual Learning with Parameter-Efficient Fine-Tuning for Brain-Computer Interfaces**
 
 > **Authors:**  
 > Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> ✉️  
@@ -9,7 +9,7 @@
 
 ## 🧬 Overview
 
-**LCPB** is an LLM-based continual learning framework tailored for EEG-based brain-computer interfaces.  
+**LBCL** is an LLM-based continual learning framework tailored for EEG-based brain-computer interfaces.  
 It alleviates three limitations of existing EEG foundation models: **unstable performance on downstream tasks**, **lack of effective sample selection**, and **absence of robust continual learning mechanisms**.
 
 ### Core Innovations
@@ -36,7 +36,7 @@ It alleviates three limitations of existing EEG foundation models: **unstable pe
 
 ## 🏗️ Framework Pipeline
 
-LCPB operates in four stages:
+LBCL operates in four stages:
 
 | Stage | Description |
 |-------|-------------|
@@ -50,7 +50,7 @@ LCPB operates in four stages:
 ## 📂 Code Structure
 
 <pre>
-LCPB/
+LBCL/
 │
 ├── MI1_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
 ├── MI2_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG models (EEGNet, ShallowNet, DeepConvNet, EEGConformer, DBConformer) on MI1 dataset
@@ -61,7 +61,7 @@ LCPB/
 ├── MI2_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI2 dataset
 ├── O_MoSLoRA_MI1_v2.py #  Performance of O-MoSLoRA on the MI1 dataset
 ├── O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
-├── URBSS_MI_v2.py #  Data selection approach (URBSS) of MI datasets
+├── URBSS_MI_v3.py #  Data selection approach (URBSS) of MI datasets
 ├── requirements.txt
 └── README.md
 </pre>
@@ -101,14 +101,14 @@ python O_MoSLoRA_MI2_v2.py #  Performance of O-MoSLoRA on the MI2 dataset
 ### 🏋️ 4. Data selection approach - URBSS (MI dataset)
 
 ```bash
-python URBSS_MI_v2.py
+python URBSS_MI_v3.py
 ```
 
 ---
 
 ## 🧪 Baselines
 
-LCPB is compared against **state-of-the-art EEG foundation models and continual learning approaches**:
+LBCL is compared against **state-of-the-art EEG foundation models and continual learning approaches**:
 
 | Category | Methods |
 |----------|---------|
@@ -144,7 +144,7 @@ LCPB is compared against **state-of-the-art EEG foundation models and continual 
 
 ## 📈 Results Summary
 
-- **+3.2% average accuracy gain** over prevailing approaches across 5 public datasets
+- **+4.5% average accuracy gain** over prevailing approaches across 5 public datasets
 - **Effective catastrophic forgetting mitigation** via orthogonal subspace constraints
 - **Acceptable computational overhead** compared to other EEG Foundation Models, CNNs
 
