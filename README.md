@@ -133,13 +133,13 @@ LBCL is compared against **state-of-the-art EEG foundation models and continual 
 
 | Scenario | Description |
 |---------|-------------|
-| **Continual Learning + CO** | Sequential subject adaptation with evaluation on all seen subjects （Within-subject; first 70% trials for training, then 10% trials for validation, last 20% for testing） |
+| **Continual Learning + CO** | Sequential subject adaptation with evaluation on all seen subjects （Within-subject; first 70% trials for training, last 20% for testing） |
 
 ---
 
 ## 📈 Results Summary
 
-- **+4.5% average accuracy gain** over prevailing approaches across 5 public datasets
+- **+5.3% average BCA gain** over prevailing approaches across 5 public datasets
 - **Effective catastrophic forgetting mitigation** via orthogonal subspace constraints
 - **Acceptable computational overhead** compared to other EEG Foundation Models, CNNs
 
