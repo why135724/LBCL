@@ -61,8 +61,6 @@ LBCL/
 ├── MI2_CBraMod_WITHIN_CL.py  #  Performance of CBraMod on the MI2 dataset
 ├── O_MoSLoRA_MI1_v3_QV_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI1 dataset
 ├── O_MoSLoRA_MI2_v3_QV_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI2 dataset
-├── O_MoSLoRA_MI1_v2_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI1 dataset
-├── O_MoSLoRA_MI2_v2_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI2 dataset
 ├── URBSS_MI_v3.py #  Data selection approach (URBSS) of MI datasets
 ├── requirements.txt
 └── README.md
@@ -93,8 +91,6 @@ python Sleep_EEGNET_WITHIN_CL.py  #  Performance of other representative EEG mod
 ```bash
 python O_MoSLoRA_MI1_v3_QV_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI1 dataset
 python O_MoSLoRA_MI2_v3_QV_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI2 dataset
-python O_MoSLoRA_MI1_v2_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI1 dataset
-python O_MoSLoRA_MI2_v2_mixer_orth_paper.py #  Performance of O-MoSLoRA on the MI2 dataset
 ```
 
 ### 🏋️ 4. Data selection approach - URBSS (MI dataset)
