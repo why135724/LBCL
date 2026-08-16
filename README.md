@@ -1,5 +1,5 @@
 # LBCL
-**LBCL: LLM-Based Continual Learning with Parameter-Efficient Fine-Tuning for Brain-Computer Interfaces**
+**LBCL: LLM-Based Continual Learning for Brain-Computer Interfaces**
 
 > **Authors:**  
 > Huanyu Wu<sup>1</sup>, Jiayu An<sup>1</sup>, Siyuan Kan<sup>1</sup>, Dongrui Wu<sup>1</sup> ✉️  
